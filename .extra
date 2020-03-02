@@ -1,0 +1,23 @@
+# Git credentials
+GIT_AUTHOR_NAME="Mike Goldsmth"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="goldsmith.mike@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+git config --global user.username "MikeGoldsmith"
+git config --global user.name "$GIT_AUTHOR_NAME"
+git config --global user.signingkey CD5FFA13DC0A17F0
+
+# Google Cloud Credentials
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/goldsmith/Documents/gcp-credentials.json"
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# Lightstep repo
+source ~/code/lightstep/.shell/shellrc
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# homebrew sbin
+export PATH="/usr/local/sbin:$PATH"
+
+# PHP debugging
+export XDEBUG_CONFIG="idekey=VSCODE"
