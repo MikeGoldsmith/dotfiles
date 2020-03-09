@@ -21,3 +21,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # PHP debugging
 export XDEBUG_CONFIG="idekey=VSCODE"
+
+# stop OSX telling me to change shells
+export BASH_SILENCE_DEPRECATION_WARNING=1
