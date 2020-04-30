@@ -24,3 +24,6 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 
 # stop OSX telling me to change shells
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# pyenv setup
+eval "$(pyenv init -)"
