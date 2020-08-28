@@ -8,19 +8,8 @@ git config --global user.username "MikeGoldsmith"
 git config --global user.name "$GIT_AUTHOR_NAME"
 git config --global user.signingkey CD5FFA13DC0A17F0
 
-# Google Cloud Credentials
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/goldsmith/Documents/gcp-credentials.json"
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-# Lightstep repo
-source ~/code/lightstep/.shell/shellrc
-export JAVA_HOME=$(/usr/libexec/java_home)
-
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
-
-# PHP debugging
-export XDEBUG_CONFIG="idekey=VSCODE"
 
 # stop OSX telling me to change shells
 export BASH_SILENCE_DEPRECATION_WARNING=1
